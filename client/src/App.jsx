@@ -1,10 +1,3 @@
+import { Home } from './pages/Home';
 
-const App = () => {
-  return (
-    <>
-      Login Form System
-    </>
-  )
-}
-
-export default App
+export const App = () => <Home />
